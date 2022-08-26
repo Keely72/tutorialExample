@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <!--Example of Style-->
+    <style>
+      h3{
+        color:antiquewhite;
+        padding: 0px;
+      }
+    </style>
+    <!--Utlize Structural tags: Body, Header (where metadata elements go, not going to show up in content such as style)-->
+    <head>
+      <!--Importing local CSS file-->
+      <link rel="stylesheet" href="CSS Practice.css">
+      <title>PowerPlant</title>
+    </head>
+    <body> 
+      <!--Utlize typography related tags: Headers(h tags), Paragraphs(P tags), Style-->
+      <header>
+        <h1 class="header" style= background-color:#00546f>
+       Aloe There!</h1>
+        </header>
+      <!--Example of nav tag and local html file, External URL, Anchors-->
+      <nav class="Nav">
+        <a href="keely.html">Plant Puns</a> |
+        <a href="https://www.google.com/?client=safari" target="_blank"></a>Plant Pictures</a> |
+        <a href="#"></a>
+      </nav>
+      <br>
+        <!--Look on inspect on Chrome to see default CSS styles-->
+      <main>
+        <section>
+        <p class="Information">
+          Plants can be found almost everywhere in nature. The plant kingdom is made up of all living things that are not animals. 
+        </p></section>
+        <!-- add link to cat photos-->
+        </p>
+        <img class="Title"src="Pictures/TitlePlantImage.jpeg" alt="PlantTitle"/>
+        <p class="dark">
+          Click here to view more
+          <!--Example of anchor-->
+          <a
+            href="https://unsplash.com/s/photos/flowers-and-plants-and-trees"
+            target="_blank"
+          >
+            plants</a
+          >. 
+        <!--Example of a list-->
+        <h3>Cat Lists</h3>
+        <!--Example of a Class and Divisions, used to style with CSS to target all elements to have same style-->
+        <div class="Lists">
+          <p>Things Cats <em>Love</em>:</p>
+          <!--Example of an Unordered List-->
+          <ul>
+            <li>Cat Nip</li>
+            <li>Laser Pointers</li>
+            <li>Lasagna</li>
+          </ul>
+          <!--Need to add image to VS code, how?-->
+          <img src="Pictures/lasagna.jpg" alt="Lasagna" />
+          <!--Example of an Ordered List-->
+          <p>Things Cats <strong> Hate</strong>:</p>
+          <ol>
+            <li>Flea Treatment</li>
+            <li>Thunder</li>
+            <li>Other Cats</li>
+            <!--Need to add image to VS code, how?-->
+          </ol>
+        </div>
+      </main>
+      <br>
+        <img src="Pictures/Cats.jpeg" alt="Cats" />
+        <br>
+        <!--Example of a table (rows, columns, header, footer)-->
+    <body>
+          <table border="1">
+            <tr>
+              <th>Things Cats Love</th>
+              <th>Things Cats Hate</th>
+            </tr>
+            <!--Rows-->
+            <tr>
+              <!--Table Data-->
+              <td>Cat Nip</td>
+              <td>Flea Treatment</td>
+            </tr>
+            <tr>
+              <td>Laser Pointers</td>
+              <td>Thunder</td>
+            </tr>
+            <!--Example of Footer-->
+              <td>Lasagna</td>
+              <td>Other Cats</td>
+            </tfoot>
+          </table>
+          </body>
+          <br>
+        <!--need more info on how to submit form, Input Fields-->
+        <form action="/submit-cat-photo">
+          <!--Example of an ID, need to have a space in between each attribute-->
+          <label for="indoor">
+            <input
+              id="indoor"
+              type="radio"
+              name="indoor-outdoor"
+              checked
+            />Indoor </label
+          ><br />
+          <label for="outdoor">
+            <input
+              id="outdoor"
+              type="radio"
+              name="indoor-outdoor"
+            />Outdoor </label
+          ><br />
+          <label for="loving"
+            ><input id="loving" type="checkbox" name="personality" checked />
+            Loving</label
+          ><br />
+          <label for="lazy"
+            ><input id="lazy" type="checkbox" name="personality" /> Lazy</label
+          ><br />
+          <label for="energetic"
+            ><input id="energetic" type="checkbox" name="personality" />
+            Energetic</label
+          ><br />
+          <input type="text" placeholder="cat photo URL" required />
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+      <!--Example of Footer, used to identify sections of webpage-->
+      <footer>
+        <p>
+          <small>No Copyright-<a class="Copyright" href="website.com" target="_blank"> Website.com </a></small>
+        </p>
+      </footer>
+      <script src="JavascriptPractice.js">
+      </script>
+    </body>
+    </html>
